@@ -13,7 +13,7 @@ This document provides instructions for building RNNoise on Windows using CMake 
 
 1. **Clone the repository:**
    ```cmd
-   git clone https://gitlab.xiph.org/xiph/rnnoise.git
+   git clone https://github.com/asineth0/rnnoise.git
    cd rnnoise
    ```
 
