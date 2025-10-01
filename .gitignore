@@ -1,0 +1,104 @@
+# Build directories
+build/
+cmake-build-*/
+
+# Visual Studio / MSVC build artifacts
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+x64/
+x86/
+Debug/
+Release/
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.obj
+*.tlog
+*.log
+*.idb
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+install_manifest.txt
+compile_commands.json
+CPackConfig.cmake
+CPackSourceConfig.cmake
+
+# Generated configuration files
+config.h
+rnnoise.pc
+*Config.cmake
+*ConfigVersion.cmake
+
+# Model data files (downloaded/generated)
+rnnoise_data-*.tar.gz
+models/
+weights_blob.bin
+
+# Large generated model data files (should be generated from training or downloaded)
+src/rnnoise_data.c
+src/rnnoise_data.h
+src/rnnoise_data_little.c
+src/rnnoise_data_little.h
+
+# Test files
+test_*.raw
+test_*.f32
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Autotools generated files
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache/
+config.guess
+config.sub
+configure
+depcomp
+install-sh
+ltmain.sh
+missing
+compile
+config.log
+config.status
+libtool
+stamp-h1
+
+# Package files
+*.tar.gz
+*.zip
+*.deb
+*.rpm

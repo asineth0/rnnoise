@@ -6,6 +6,10 @@
 #include "stdlib.h"
 #include "string.h"
 
+#ifdef _MSC_VER
+#include "msvc_compat.h"
+#endif
+
 #define RNN_INLINE inline
 #define OPUS_INLINE inline
 

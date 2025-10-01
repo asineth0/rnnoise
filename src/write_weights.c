@@ -41,7 +41,9 @@
 #ifdef USE_WEIGHTS_FILE
 #undef USE_WEIGHTS_FILE
 #endif
-#include "rnnoise_data.c"
+#include "rnnoise_data.h"
+
+extern const WeightArray rnnoise_arrays[];
 
 void write_weights(const WeightArray *list, FILE *fout)
 {
